@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./assets/background.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Raleway", sans-serif;
+}
+  .FormContainer {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .brand img {
+    height: 5rem;
+  }
+  .brand h1 {
+    color: white;
+    text-transform: uppercase;
+  }
+  form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 30vw;
+    border-radius: 2rem;
+    padding: 5rem;
+    gap: 2rem;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0.5px);
+    -webkit-backdrop-filter: blur(0.5px);
+    border-radius: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    @media only screen and (max-width: 320px) {
+      width: 80vw;
+      height: 90vh;
+      hr {
+        margin-bottom: 0.3rem;
+      }
+      h4 {
+        font-size: small;
+      }
+    }
+    @media only screen and (min-width: 360px) {
+      width: 80vw;
+      height: 90vh;
+      h4 {
+        font-size: small;
+      }
+    }
+    @media only screen and (min-width: 411px) {
+      width: 80vw;
+      height: 90vh;
+    }
+    @media only screen and (min-width: 768px) {
+      width: 80vw;
+      height: 80vh;
+    }
+    @media only screen and (min-width: 1024px) {
+      width: 70vw;
+      height: 50vh;
+    }
+    @media only screen and (min-width: 1280px) {
+      width: 30vw;
+      height: 80vh;
+    }
+  }
+  input {
+    padding: 1rem;
+    border: 0.1rem solid #8059ea;
+    border-radius: 0.4rem;
+    color: white;
+    width: 100%;
+    font-size: 1rem;
+  }
+  input:focus {
+    border: 0.1rem solid #997af0;
+    outline: none;
+  }
+  button {
+    background-color: #4e0eff;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  button:hover {
+    background-color: #4e0eff;
+  }
+  .signup {
+    color: white;
+    text-transform: uppercase;
+  }
+  .signup a {
+    color: #a486f7;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+  

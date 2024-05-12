@@ -28,11 +28,11 @@ Socket.io: Real-time communication library.
 Language Model API: Utilized for generating responses when a user is 'BUSY'.
 
 # Setup Instructions
-Clone the repository.
-Install dependencies using npm install.
-Set up MongoDB and configure the connection string.
-Set up the language model API and obtain the necessary credentials/API keys.
-Configure environment variables.
+1. Clone the repository.
+2. Install dependencies using npm install.
+3. Set up MongoDB and configure the connection string.
+4. Set up the language model API and obtain the necessary credentials/API keys.
+5. Configure environment variables.
 # Run the application using 
 # npm run dev for the front end part 
 # start the backend using nodemon index.js.
